@@ -1,0 +1,43 @@
+body {
+    background-color: aquamarine;
+    line-height: 2;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    border: solid 2px black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+    border-bottom: solid 2px black;
+    border-left: solid 3px black;
+    margin-right: 75%;
+}
+
+html {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    height: 150px;
+    table-layout: fixed;
+}
+
+.url {
+    width: 20%;
+}
+
+td {
+    line-height: 200%;
+}
+
+p,iframe,table {
+    padding-left: 2%;
+}
