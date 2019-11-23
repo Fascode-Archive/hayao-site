@@ -11,6 +11,7 @@ h1 {
     border: solid 2px black;
     text-align: center;
     margin: 0 auto;
+    padding-left: 3px;
 }
 
 h2 {
@@ -40,4 +41,23 @@ td {
 
 p,iframe,table {
     padding-left: 2%;
+    padding-right: 2%;
+}
+
+.htmlWraper {
+    position: relative;
+    width: 96%;
+    
+}
+
+.iframeWrap{
+    height: 0;
+    padding-bottom: 30%;
+    margin-bottom: 5%;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
 }

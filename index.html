@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./style.css" type="text/css">
+    <!--<link rel="stylesheet" href="./style.css" type="text/css"> -->
+    <link href="sp.css" rel="stylesheet" type="text/css" media="(max-width: 800px)" >
+    <link href="style.css" rel="stylesheet" type="text/css" media="(min-width: 801px)" >
     <link rel="shortcut icon" href="./favicon.ico">
     <title>はやおのぺーじ</title>
 </head>
@@ -22,9 +24,17 @@
     <p>イメージファイルの生成には<a href="https://github.com/Hayao0819/archiso-helper" target="_blank">独自のスクリプト</a>を利用しています。</p>
     <p>ltsカーネルのイメージファイルは<a href="https://github.com/Hayao0819/archlinux-lts-live" target="_blank">こちらの設定ファイル</a>と上記のスクリプトを使用しています。</p>
     <h2>linuxカーネル</h2>
-    <iframe src="https://h.0u0.biz/arch" frameborder="0" width="100%" style="height: 500px;">（フレーム表示ができません）</iframe>
+    <div class="htmlWraper">
+        <div class="iframeWrap">
+            <iframe src="https://h.0u0.biz/arch" frameborder="0" width="100%" height="100%">（フレーム表示ができません）</iframe>
+        </div>
+    </div>
     <h2>linux-ltsカーネル</h2>
-    <iframe src="https://h.0u0.biz/lts" frameborder="0" width="100%" style="height: 500px;">（フレーム表示ができません）</iframe>
+    <div class="htmlWraper">
+        <div class="iframeWrap">
+            <iframe src="https://h.0u0.biz/lts" frameborder="0" width="100%" height="100%">（フレーム表示ができません）</iframe>
+        </div>
+    </div>
 
     <h1>リンク集</h1>
     <table>
